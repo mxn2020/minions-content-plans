@@ -1,6 +1,12 @@
 ---
 name: minions-content-plans
-description: Content calendars, themes, and posting schedules per account group
+id: OC-0116
+version: 1.0.0
+description: "Content calendars, themes, and posting schedules per account group"
+category: ai
+subcategory: general
+tags: ["minion", "ai", "general"]
+comments:
 ---
 
 # minions-content-plans — Agent Skills
