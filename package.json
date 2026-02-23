@@ -1,7 +1,7 @@
 {
     "name": "minions-content-plans-workspace",
     "private": true,
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "Content calendars, themes, and posting schedules per account group",
     "type": "module",
     "license": "MIT",

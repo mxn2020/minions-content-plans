@@ -1,6 +1,6 @@
 {
   "name": "@minions-content-plans/cli",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "CLI for minions-content-plans — Content calendars, themes, and posting schedules per account group",
   "license": "MIT",
   "repository": {
