@@ -1,0 +1,28 @@
+{
+    "name": "minions-content-plans-workspace",
+    "private": true,
+    "version": "0.1.0",
+    "description": "Content calendars, themes, and posting schedules per account group",
+    "type": "module",
+    "license": "MIT",
+    "author": "Mehdi Nabhani <mehdi@the-mehdi.com> (https://the-mehdi.com)",
+    "workspaces": [
+        "packages/*",
+        "apps/*"
+    ],
+    "scripts": {
+        "build": "pnpm --filter @minions-content-plans/sdk run build && pnpm --filter @minions-content-plans/cli run build && pnpm --filter @minions-content-plans/docs run build && pnpm --filter @minions-content-plans/blog run build && pnpm --filter @minions-content-plans/web run build",
+        "deploy:blog": "pnpm --filter @minions-content-plans/blog run build && netlify deploy --dir apps/blog/dist --prod",
+        "deploy:docs": "pnpm --filter @minions-content-plans/docs run build && netlify deploy --dir apps/docs/dist --prod",
+        "deploy:web": "pnpm --filter @minions-content-plans/web run build && netlify deploy --dir apps/web/dist --prod",
+        "test": "pnpm --filter @minions-content-plans/sdk run test",
+        "lint": "pnpm --filter @minions-content-plans/sdk run build && pnpm --filter @minions-content-plans/sdk run lint && pnpm --filter @minions-content-plans/cli run lint",
+        "deploy": "pnpm run deploy:blog"
+    },
+    "engines": {
+        "node": ">=20"
+    },
+    "devDependencies": {
+        "typescript": "^5.9.3"
+    }
+}
