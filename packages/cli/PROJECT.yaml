@@ -6,3 +6,4 @@ description: "CLI for minions-content-plans — Content calendars, themes, and p
 priority: high
 deploy_url: null
 tags: null
+category: minion-toolbox
