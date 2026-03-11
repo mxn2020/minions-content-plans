@@ -1,0 +1,15 @@
+name: minions-content-plans-workspace
+project_scope: main
+project_type: monorepo
+description: "Content calendars, themes, and posting schedules per account group"
+tier: idea
+lane: minions
+priority: medium
+oss: true
+stack: [typescript]
+repo: "https://github.com/mxn2020/minions-content-plans"
+deploy_url: null
+last_active: 2026-02-23
+tags: [minion, toolbox, ai-agent, automation, minions, content, plans]
+notes: null
+id: 4d30c2ab-99a1-44eb-b721-648f7fd4f2d7

@@ -1,0 +1,8 @@
+name: "@minions-content-plans/sdk"
+project_scope: child
+child_type: sdk
+parent_project: minions-content-plans-workspace
+description: "Content calendars, themes, and posting schedules per account group"
+priority: high
+deploy_url: null
+tags: null
